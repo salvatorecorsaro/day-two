@@ -16,4 +16,8 @@ public class Main {
 //        var myBigClassWithAVeryLongName = new MyBigClassWithAVeryLongName();
         return r;
     };
+
+    public static void printHello(){
+        System.out.println("Hello!!");
+    }
 }

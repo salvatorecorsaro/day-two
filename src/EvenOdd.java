@@ -12,7 +12,7 @@ public class EvenOdd {
             } else oddCount++;
         }
 
-        System.out.println("Generados 100 numeros");
+        System.out.println("Generados 100 numeros!");
 
         System.out.println("Even: " + evenCount+ "\nOdd: "+ oddCount);
         if ( evenCount == oddCount) {

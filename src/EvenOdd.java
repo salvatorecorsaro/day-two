@@ -15,7 +15,11 @@ public class EvenOdd {
         System.out.println("Generados 100 numeros");
 
         System.out.println("Even: " + evenCount+ "\nOdd: "+ oddCount);
-        System.out.println(evenCount>oddCount?"Even Wins!":"Odd Wins!");
+        if ( evenCount == oddCount) {
+            System.out.println("Draw");
+        } else {
+            System.out.println(evenCount>oddCount?"Even Wins!":"Odd Wins!");
+        }
 
 
     }
